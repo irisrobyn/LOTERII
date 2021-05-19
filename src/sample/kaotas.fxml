@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Kaotas">
+   <children>
+      <Label layoutX="142.0" layoutY="135.0" text="Äkki järgmine kord joppab..&#10;Maja võitis." wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="mängiUuesti" layoutX="252.0" layoutY="259.0" mnemonicParsing="false" onAction="#mängiUuesti" prefHeight="32.0" prefWidth="95.0" text="Mängi uuesti" />
+      <Button fx:id="logiVälja" layoutX="533.0" layoutY="1.0" mnemonicParsing="false" onAction="#logiVälja" text="Logi välja" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

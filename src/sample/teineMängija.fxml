@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeineMängija">
+   <children>
+      <Label layoutX="212.0" layoutY="176.0" prefHeight="48.0" prefWidth="175.0" text="Sisesta teise mängija nimi">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="teineNimi" layoutX="225.0" layoutY="234.0" promptText="Sisesta nimi" />
+      <Label layoutX="184.0" layoutY="266.0" text="Sisesta teise mängija piletite numbrid">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="piletiteNumbrid2" layoutX="224.0" layoutY="295.0" promptText="Sisesta piletite numbrid" />
+      <Button fx:id="mängi" layoutX="274.0" layoutY="335.0" mnemonicParsing="false" onAction="#mängi" text="Mängi!" />
+      <Label layoutX="202.0" layoutY="44.0" prefHeight="48.0" prefWidth="196.0" text="Sisesta esimese mängija nimi">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="esimeneNimi" layoutX="224.0" layoutY="92.0" promptText="Sisesta nimi" />
+      <Label layoutX="183.0" layoutY="128.0" text="Sisesta esimese mängija piletite numbrid">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="piletiteNumbrid1" layoutX="224.0" layoutY="163.0" promptText="Sisesta piletite numbrid" />
+      <Label fx:id="Võitjad" layoutX="16.0" layoutY="17.0" prefHeight="246.0" prefWidth="165.0" textFill="#100f0f" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
