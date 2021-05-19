@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SisseLogitud">
+   <children>
+      <Label fx:id="mänguJuhataja" layoutX="199.0" layoutY="200.0" prefHeight="54.0" prefWidth="221.0" text="Mängujuhataja! Mitu mängijat mängib?" wrapText="true" />
+      <Label fx:id="kirjeldus" layoutX="167.0" layoutY="23.0" prefHeight="190.0" prefWidth="266.0" text="Loteriis saab osaleda kuni 5 mängijat.&#10; Iga mängija saab osta soovitud koguse pileteid. &#10;Pileti hind on 5.5 eurot.&#10;Iga piletiga saab valida ühe numbri vahemikus 1-30.&#10;Sisse pandud summa jagatakse võitjate vahel ära.&#10;Olgu õnn Teie poolel!" wrapText="true">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="üksMängija" layoutX="264.0" layoutY="256.0" mnemonicParsing="false" onAction="#valik1" text="1 mängija " />
+      <Button fx:id="kaksMängijat" layoutX="264.0" layoutY="282.0" mnemonicParsing="false" onAction="#valik2" text="2 mängijat" />
+      <Button fx:id="kolmMängijat" layoutX="264.0" layoutY="308.0" mnemonicParsing="false" onAction="#valik3" text="3 mängijat" />
+      <Button fx:id="neliMängijat" layoutX="264.0" layoutY="334.0" mnemonicParsing="false" onAction="#valik4" text="4 mängijat" />
+      <Button fx:id="viisMängijat" layoutX="264.0" layoutY="360.0" mnemonicParsing="false" onAction="#valik5" text="5 mängijat" />
+      <Button fx:id="logiVälja" mnemonicParsing="false" onAction="#logiVälja" text="Logi välja" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

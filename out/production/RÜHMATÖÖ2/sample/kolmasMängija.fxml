@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.KolmasMängija">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="192.0" layoutY="245.0" prefHeight="32.0" prefWidth="216.0" text="Sisesta kolmanda mängija nimi">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="kolmasNimi" layoutX="224.0" layoutY="277.0" promptText="Sisesta nimi" />
+            <Label layoutX="167.0" layoutY="303.0" text="Sisesta kolmanda mängija piletite numbrid">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="piletiteNumbrid3" layoutX="225.0" layoutY="323.0" promptText="Sisesta piletite numbrid" />
+            <Button fx:id="mängi" layoutX="273.0" layoutY="360.0" mnemonicParsing="false" onAction="#mängi" prefHeight="26.0" prefWidth="62.0" text="Mängi!" AnchorPane.leftAnchor="273.0" AnchorPane.rightAnchor="265.0" />
+            <Label layoutX="207.0" layoutY="147.0" prefHeight="26.0" prefWidth="181.0" text="Sisesta teise mängija nimi">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="teineNimi" layoutX="225.0" layoutY="174.0" promptText="Sisesta nimi" />
+            <Label layoutX="183.0" layoutY="200.0" text="Sisesta teise mängija piletite numbrid">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="piletiteNumbrid2" layoutX="223.0" layoutY="220.0" promptText="Sisesta piletite numbrid" />
+            <Label layoutX="200.0" layoutY="49.0" prefHeight="26.0" prefWidth="194.0" text="Sisesta esimese mängija nimi">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="esimeneNimi" layoutX="224.0" layoutY="76.0" promptText="Sisesta nimi" />
+            <Label layoutX="182.0" layoutY="102.0" text="Sisesta esimese mängija piletite numbrid">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="piletiteNumbrid1" layoutX="225.0" layoutY="122.0" promptText="Sisesta piletite numbrid" />
+            <Label fx:id="Võitjad" layoutX="14.0" layoutY="51.0" prefHeight="246.0" prefWidth="165.0" textFill="#100f0f" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

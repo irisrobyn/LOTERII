@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="144.0" layoutY="134.0" text="Kasutajanimi:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="200.0" layoutY="189.0" text="Parool:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="142.0" layoutY="237.0" text="Parool uuesti:">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="161.0" layoutY="71.0" text="Registreeri uus kasutaja:">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="kasutajanimi1" layoutX="281.0" layoutY="132.0" promptText="kasutajanimi" />
+            <Button fx:id="registreeri" layoutX="322.0" layoutY="312.0" mnemonicParsing="false" onAction="#registreeriClicked" text="Registreeri" />
+            <Button fx:id="tagasi" layoutX="177.0" layoutY="312.0" mnemonicParsing="false" onAction="#tagasiClicked" text="Tagasi" />
+            <Label fx:id="label1" layoutX="197.0" layoutY="279.0" prefHeight="18.0" prefWidth="196.0" textFill="RED" />
+            <PasswordField fx:id="parool1" layoutX="281.0" layoutY="187.0" promptText="parool" />
+            <PasswordField fx:id="paroolUuesti" layoutX="281.0" layoutY="237.0" promptText="parool uuesti" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
